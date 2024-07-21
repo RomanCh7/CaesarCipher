@@ -54,6 +54,7 @@ public class Main {
                         }
                     }
                     encrypt(inputFileEncrypt, outputFileEncrypt, keyIn);
+                    System.out.println("You have succesfully encrypted the file!!!");
                     break;
 
                 case 2:
@@ -93,6 +94,7 @@ public class Main {
                         }
                     }
                     decrypt(inputFileDecrypt, outputFileDecrypt, keyOut);
+                    System.out.println("You have succesfully decrypted the file!!!");
                     break;
                 case 3:
                     System.out.println("Have a nice day!!");
