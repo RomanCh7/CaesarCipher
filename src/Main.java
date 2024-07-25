@@ -45,6 +45,7 @@ public class Main {
 
                     System.out.println("Type path of output file:");
                     String outputFileEncrypt;
+
                     while (true) {
                         outputFileEncrypt = scanner.next();
                         if (checkFile(outputFileEncrypt)) {
